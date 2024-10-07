@@ -1,0 +1,67 @@
+.resume__item:not(:first-child) {
+  border-right: 2px solid hsl(210, 2%, 65%);
+}
+
+.resume__item {
+  position: relative;
+}
+
+.resume__header {
+  padding: 32px 30px;
+}
+
+.resume__subtitle {
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.resume__icon {
+    /* background-color: hsl(217, 18%, 14%); */
+    border: 2px solid hsl(210, 2%, 65%);
+    font-size: 30px;
+    box-shadow: 5px 5px rgba(255,255,255,0.1) ;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    line-height: 1.3em;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    right: -24px;
+    bottom: -24px;
+    z-index: 10;
+    transition: all 1.2s cubic-bezier(0.3,0,0.3,1);
+}
+
+.resume__content {
+    padding-inline: 30px 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 1s ease 0s;
+}
+
+.show-content {
+    max-height: 500px;
+}
+
+.resume__date-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.resume__title {
+    font-family: Caveat;
+    font-size: 28px;
+}
+
+.resume__date {
+    color: hsl(0, 0%, 100%);
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.resume__desc{
+    margin-block: 20px 30px;
+}
+
