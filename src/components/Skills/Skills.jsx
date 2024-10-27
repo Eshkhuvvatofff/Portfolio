@@ -15,7 +15,7 @@ const Skills = () => {
         <span className='font-[Caveat] text-titleColor dark:text-titleColorDark text-h3Size capitalize ml-[10px]'>
           Talent
         </span>
-      </p>
+      </p>  
 
       <div className='sm:grid-cols-2 lg:grid-cols-3 gap-y-[70px] grid gap-[24px]'>
         {skill.map(({ name, percentage, description }, index) => {

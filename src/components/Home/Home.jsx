@@ -93,12 +93,6 @@ const Home = () => {
             >
               <FaYoutube />
             </a>
-            {/* <a
-              href='AsliddinOkenggg@gmail.com'
-              className='text-titleColor text-h5Size transition-all duration-75 ease-[cubic-bezier(0.3,0,0.3,1)] hover:text-primaryColor dark:text-textColorDark dark:hover:text-primaryColor hover:animate-bounce'
-            >
-              <FaEnvelope />
-            </a> */}
           </div>
 
           <div className='flex gap-[70px] font-[700] uppercase tracking-[0.05em] items-center justify-center mx-[-40px] sm:mx-0 sm:justify-start'>

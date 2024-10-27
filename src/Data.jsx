@@ -121,47 +121,65 @@ export const skill = [
     description:
       'TypeScript is a superset of JavaScript that adds optional static typing and other features to the language.',
   },
-
   {
     id: 6,
+    name: 'Chart js',
+    description:
+      'Chart.js is a flexible and easy-to-use JavaScript library for creating interactive and customizable charts, supporting various types of data visualization.',
+  },
+  {
+    id: 7,
+    name: 'React Query',
+    description:
+      'React Query is a convenient and efficient library for managing and synchronizing server data in React applications, simplifying caching and data updating processes.',
+  },
+
+  {
+    id: 8,
     name: 'Tailwind CSS',
     description:
       'Tailwind CSS is a utility-first CSS framework that provides developers with a set of pre-built CSS classes for styling web applications.',
   },
 
   {
-    id: 7,
-    name: 'Git',
+    id: 9,
+    name: 'Github',
     description:
-      'Git is a widely used version control system that is essential for collaborative development and project management. ',
+      'GitHub is a popular platform for hosting and managing Git repositories, providing tools for version control, collaboration, and project tracking.',
   },
 
   {
-    id: 8,
+    id: 10,
     name: 'Vite',
     description:
       'Vite is a fast build tool for modern web apps, offering instant startup and efficient code bundling.'
   },
 
   {
-    id: 10,
+    id: 11,
     name: 'RESTful API',
     description:
       'RESTful API is an interface that two computer systems use to exchange information securely over the internet.',
   },
 
   {
-    id: 11,
+    id: 12,
     name: 'Sass',
     description:
       'Sass is a CSS preprocessor that allows developers to write CSS in a more concise and structured way.',
   },
 
   {
-    id: 12,
+    id: 13,
     name: 'Bootstrap',
     description:
       'Bootstrap is a popular CSS framework that provides developers with a set of pre-built UI components.',
+  },
+  {
+    id: 13,
+    name: 'Pug',
+    description:
+      'Pug is a high-performance template engine for Node.js, allowing developers to write cleaner HTML with simplified syntax and reusable components.',
   },
 
   {
@@ -193,8 +211,8 @@ export const project = [
     title: 'Developer Portfolio',
     description:
       'This Portfolio involves creating a visually appealing and user-friendly website that showcases the skills and portfolio of a frontend developer.',
-    url: 'http://imankhaki.netlify.app/',
-    sourceUrl: 'https://github.com/khakiiman/portfolio',
+    url: 'https://eshkhuvvatofff.vercel.app/#home',
+    sourceUrl: 'https://github.com/Eshkhuvvatofff/Portfolio',
   },
 
   {
@@ -204,19 +222,8 @@ export const project = [
     title: 'Mobile UI Kit',
     description:
       'The Web UI Kit is a collection of ready-to-use components for building user-friendly web applications quickly.',
-    url: 'https://newapplestore.netlify.app/',
-    sourceUrl: 'https://github.com/khakiiman/applestore',
-  },
-
-  {
-    id: 4,
-    img: golsam,
-    category: 'Blog',
-    title: 'Golsam Sepahan',
-    description:
-      'A new design blog provides informative content related to the agricultural industry, including tips and advice on the use of fertilizers and pesticides. ',
-    url: 'https://golsamsepahan.netlify.app',
-    sourceUrl: 'https://github.com/khakiiman/golsam-sepahan',
+    url: 'https://mobile-ui-screens.vercel.app/',
+    sourceUrl: 'https://github.com/Eshkhuvvatofff/Mobile-UI-screens',
   },
 ];
 
