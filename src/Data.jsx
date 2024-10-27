@@ -17,7 +17,7 @@ export const links = [
   {
     name: 'Services',
     path: 'services',
-  },
+  },  
   {
     name: 'Skills',
     path: 'skills',
@@ -230,83 +230,84 @@ export const project = [
 export const cv = [
   {
     id: 1,
-    title: 'University of Tehran',
-    subtitle: 'M.Sc. in Engineering',
-    date: '2014 - 2016',
+    title: 'Sfere Academy',
+    subtitle: 'Student',
+    date: '2023 - 2024',
     description:
-      'The Master of Science in Hydraulic Engineering program at the University of Tehran is a two-year postgraduate degree that provides students with advanced knowledge of water structural engineering.',
+      'Sfera Academy provides a two-year Hydraulic Engineering program that equips students with essential skills and knowledge in water structural engineering. Our curriculum merges theory with practical experience, preparing graduates for real-world challenges.',
     category: 'education',
   },
 
-  {
-    id: 2,
-    title: 'Mehregan Institute Certificate',
-    subtitle: 'SQL Server',
-    date: '2012 - 2013',
-    description:
-      'The SQL Server Certificate program at Mehregan Institute is a training program that provides students with advanced knowledge of SQL Server databases, including database design, administration, and programming.',
-    category: 'education',
-  },
+  // {
+  //   id: 2,
+  //   title: 'Mehregan Institute Certificate',
+  //   subtitle: 'SQL Server',
+  //   date: '2012 - 2013',
+  //   description:
+  //     'The SQL Server Certificate program at Mehregan Institute is a training program that provides students with advanced knowledge of SQL Server databases, including database design, administration, and programming.',
+  //   category: 'education',
+  // },
 
-  {
-    id: 3,
-    title: 'Mehregan Institute Certificate',
-    subtitle: 'C#.Net',
-    date: '2012 - 2013',
-    description:
-      'The C#.Net Certificate program at Mehregan Institute is a training program that provides students with advanced knowledge of C# programming language and .NET framework.',
-    category: 'education',
-  },
+  // {
+  //   id: 3,
+  //   title: 'Mehregan Institute Certificate',
+  //   subtitle: 'C#.Net',
+  //   date: '2012 - 2013',
+  //   description:
+  //     'The C#.Net Certificate program at Mehregan Institute is a training program that provides students with advanced knowledge of C# programming language and .NET framework.',
+  //   category: 'education',
+  // },
 
-  {
-    id: 4,
-    title: 'Coming Soon...',
-    subtitle: 'Coming Soon...',
-    date: '0000 - 0000',
-    description:
-      'Coming Soon...',
-    category: 'education',
-  },
+  // {
+  //   id: 4,
+  //   title: 'Coming Soon...',
+  //   subtitle: 'Coming Soon...',
+  //   date: '0000 - 0000',
+  //   description:
+  //     'Coming Soon...',
+  //   category: 'education',
+  // },
 
   {
     id: 5,
-    title: 'Freelancing (Web Development)',
-    subtitle: 'GolsamSepahan Blog',
-    date: '2022 - PRESENT',
+    title: 'Internship (Web Development)',
+    subtitle: 'GEADEZIST Project',
+    date: '2024 - PRESENT',
     description:
-      'As a freelance frontend developer, I was responsible for developing the frontend of a blog website from scratch, which involved creating an intuitive and visually engaging user interface. My responsibilities included designing and implementing responsive layouts, optimizing website performance, and ensuring cross-browser compatibility.',
+      'During my internship, I worked on the GEADEZIST project, utilizing TypeScript, Vite, React, Tailwind CSS, and Ant Design. My responsibilities included developing the frontend, creating a user-friendly interface, and implementing responsive designs. The project focuses on providing a seamless experience for users, ensuring performance optimization and cross-browser compatibility. You can view the project on GitHub: https://github.com/jasurhaydarovcode/GEADEZIST/',
     category: 'experience',
-  },
+},
 
-  {
-    id: 6,
-    title: 'Coming Soon...',
-    subtitle: 'Coming Soon...',
-    date: '000 - 0000',
-    description:
-      'Coming Soon....',
-    category: 'experience',
-  },
 
-  {
-    id: 7,
-    title: 'Coming Soon...',
-    subtitle: 'Coming Soon...',
-    date: '000 - 0000',
-    description:
-      'Coming Soon....',
-    category: 'experience',
-  },
+  // {
+  //   id: 6,
+  //   title: 'Coming Soon...',
+  //   subtitle: 'Coming Soon...',
+  //   date: '000 - 0000',
+  //   description:
+  //     'Coming Soon....',
+  //   category: 'experience',
+  // },
+
+  // {
+  //   id: 7,
+  //   title: 'Coming Soon...',
+  //   subtitle: 'Coming Soon...',
+  //   date: '000 - 0000',
+  //   description:
+  //     'Coming Soon....',
+  //   category: 'experience',
+  // },
   
-  {
-    id: 8,
-    title: 'Coming Soon...',
-    subtitle: 'Coming Soon...',
-    date: '000 - 0000',
-    description:
-      'Coming Soon....',
-    category: 'experience',
-  },
+  // {
+  //   id: 8,
+  //   title: 'Coming Soon...',
+  //   subtitle: 'Coming Soon...',
+  //   date: '000 - 0000',
+  //   description:
+  //     'Coming Soon....',
+  //   category: 'experience',
+  // },
 
 ];
 
