@@ -1,3 +1,4 @@
+import GitHubButton from 'react-github-btn'
 import React from 'react';
 import AnimatedNumbers from 'react-animated-numbers';
 import { Link } from 'react-scroll';
@@ -20,10 +21,13 @@ const Home = () => {
   const transition = { duration: 3, type: 'spring' };
 
   return (
+    
+
     <section
       className='flex px-8 sm:px-4 pt-[160px] sm:pt-[200px] lg:pt-[165px] justify-center bg-gradient-180 from-bgColor to-bgColorAlt overflow-x-hidden pb-[180px] sm:pb-[0px] dark:from-bgColorDark dark:to-bgColorDark scrollbar-hide'
       id='home'
     >
+      <GitHubButton href="https://github.com/ntkme">Follow @ntkme</GitHubButton>
       <div className='min-h-screen grid items-center grid-rows-flow-2 xs:gap-20 sm:gap-28 lg:grid-cols-2 3xl:gap-96'>
         {/* left side */}
         <div className='relative top-[15%] sm:top-[-8%] p-3 w-full text-white grid gird-rows-flow-6 gap-2 order-2 lg:order-1'>
