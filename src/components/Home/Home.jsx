@@ -70,13 +70,13 @@ const Home = () => {
               <FaFacebookSquare />
             </a> */}
             <a
-              href='https://github.com/EshquvvatovAsliddin' target='_blank'
+              href='https://github.com/Eshkhuvvatofff' target='_blank'
               className='text-titleColor text-h5Size transition-all duration-75 ease-[cubic-bezier(0.3,0,0.3,1)] hover:text-primaryColor dark:text-textColorDark dark:hover:text-primaryColor hover:animate-bounce'
             >
               <FaGithub />
             </a>
             <a
-              href='#'
+              href='https://www.instagram.com/eshkhuvvatoff/'
               className='text-titleColor text-h5Size transition-all duration-75 ease-[cubic-bezier(0.3,0,0.3,1)] hover:text-primaryColor dark:text-textColorDark dark:hover:text-primaryColor hover:animate-bounce'
             >
               <FaInstagram />
