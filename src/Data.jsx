@@ -200,8 +200,8 @@ export const project = [
     title: 'digiCosmetics',
     description:
       'Landing page designed for selling cosmetic products. It typically includes a visually appealing design, easy navigation, and clear product descriptions.',
-    url: 'https://digicosmetics.netlify.app',
-    sourceUrl: 'https://github.com/khakiiman/digiCosmetics',
+    url: 'https://digi-cosmetics.vercel.app/',
+    sourceUrl: 'https://github.com/Eshkhuvvatofff/digiCosmetics',
   },
 
   {

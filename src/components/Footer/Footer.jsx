@@ -112,58 +112,10 @@ export default function Footer() {
         Footer
       </h2>
       <div className='mx-auto max-w-7xl'>
-        {/* Footer Section One */}
-        <div className='m-16 lg:flex lg:items-center lg:justify-between'>
-          <div>
-            <h3 className='text-largest font-semibold leading-6 text-titleColor dark:text-titleColorDark text-center sm:text-left '>
-              Subscribe to our newsletter
-            </h3>
-            <p className='mt-2 text-large leading-6 text-gray-300 text-textColor dark:text-textColorDark text-center sm:text-left'>
-              The latest articles, and advices, sent to your inbox.
-            </p>
-          </div>
-          <form className='mt-6 sm:flex sm:max-w-md lg:mt-0'>
-            <label htmlFor='email-address' className='sr-only'>
-              Email address
-            </label>
-            <input
-              type='email'
-              name='email-address'
-              id='email-address'
-              autoComplete='email'
-              required
-              className='w-full rounded-full border border-solid border-borderColor px-3 py-1.5 text-base shadow-sm sm:w-56 sm:text-sm sm:leading-6 bg-bgColorAlt dark:bg-containerColorDark text-titleColor dark:text-titleColorDark'
-              placeholder='Enter your email'
-            />
-            <div className='mt-4 sm:ml-4 sm:mt-0 sm:flex-shrink-0'>
-              <button
-                type='submit'
-                className='flex items-center justify-around w-full text-titleColor dark:text-titleColorDark text-large gap-2 border-[2px] border-solid border-borderColor dark:border-borderColorDark py-[8px] px-[16px] rounded-[56px] dark:shadow-[5px_5px_rgba(255,255,255,0.1)] shadow-[5px_5px_rgba(0,0,0,0.3)] relative bg-white dark:bg-titleColor before:content-[""] before:absolute before:inset-[2px] before:bg-primaryColor before:rounded-[56px] before:scale-[0.3] before:blur-[10px] before:opacity-0 before:transition-all before:duration-[0.6s] before:ease-[cubic-bezier(0.3,0,0.3,1)] before:z-[1] hover:before:scale-[1] hover:before:blur-0 hover:before:opacity-100'
-              >
-                <span className='z-[1] text-titleColor dark:text-titleColorDark font-[Jost] font-[700]'>
-                  Subscribe
-                </span>
-              </button>
-            </div>
-          </form>
-        </div>
-        {/* Footer Section Two */}
-        <div className='border-t-2 border-[rgba(0,0,0,0.1)] dark:border-[rgba(255,255,255,0.05)] grid lg:grid-cols-3 text-center gap-8 py-16 lg:gap-0  '>
+        <div className='border-t-2 border-[rgba(0,0,0,0.1)] dark:border-[rgba(255,255,255,0.05)] grid lg:grid-cols-3 text-center gap-8 py-6 lg:gap-0  '>
           {/* Socials icons */}
           <div className='flex justify-center lg:justify-start '>
             <div className='flex gap-[20px] '>
-              <a
-                href='#'
-                className='text-titleColor text-h5Size transition-all duration-75 ease-[cubic-bezier(0.3,0,0.3,1)] '
-              >
-                <FaTwitter className='text-titleColor dark:text-titleColorDark hover:text-primaryColor dark:hover:text-primaryColor' />
-              </a>
-              <a
-                href='#'
-                className='text-titleColor text-h5Size transition-all duration-75 ease-[cubic-bezier(0.3,0,0.3,1)] hover:text-primaryColor '
-              >
-                <FaFacebookSquare className='text-titleColor dark:text-titleColorDark hover:text-primaryColor dark:hover:text-primaryColor' />
-              </a>
               <a
                 href='#'
                 className='text-titleColor text-h5Size transition-all duration-75 ease-[cubic-bezier(0.3,0,0.3,1)] hover:text-primaryColor '
@@ -197,14 +149,14 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className='flex justify-center uppercase tracking-[0.05em] text-titleColor dark:text-titleColorDark'>
-            &copy; 2023&nbsp; <span className='text-primaryColor'>imankh</span>.
+          <div className='flex justify-center  tracking-[0.05em] text-titleColor dark:text-titleColorDark'>
+            &copy; 2024&nbsp; <span className='text-primaryColor'>Eshkhuvvatoff</span>.
             All Rights Reserved
           </div>
 
-          <div className='uppercase tracking-[0.05em] text-titleColor dark:text-titleColorDark flex justify-center lg:justify-end'>
+          <div className='tracking-[0.05em] text-titleColor dark:text-titleColorDark flex justify-center lg:justify-end'>
             Developed By&nbsp;{' '}
-            <span className='text-primaryColor'>Iman Khaki</span>
+            <span className='text-primaryColor'>Eshkhuvvatoff</span>
           </div>
         </div>
       </div>
